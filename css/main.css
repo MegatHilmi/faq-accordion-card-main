@@ -69,7 +69,7 @@ h1{
 }
 
 .sur:hover{
-    font-weight: 700;
+    color: hsl(14, 88%, 65%);
     cursor: pointer;
 }
 
