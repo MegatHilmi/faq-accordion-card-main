@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.image{
+    background: url("../images/illustration-woman-online-mobile.svg") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    bottom: 11.5em;
+    width: 20em;
+    height: 20em;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.image:after{
+    content: "";
+    display: block;
+    background: url("../images/bg-pattern-mobile.svg") no-repeat;
+    background-size: 100% 100%; 
+    width: 20em;
+    height: 5em;
+    padding-bottom: 4em;
+    position: relative;
+    top: 11em;
+}
+
+
+
+.card{
+    background-color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    width: 27em;
+    height: 38em;
+    border-radius: 25px;
+    z-index: 1;
+    margin-bottom: 20em;
+}
+
+.content{
+    position: relative;
+    bottom: 8em;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+.sur{
+    font-weight: 400;
+    padding: 10px 30px;
+    color: hsl(237, 12%, 33%);
+}
+
+.sur:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sur-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sur-icon{
+    background: url("../images/icon-arrow-down.svg");
+    background-size: 100% 100%;
+    width: 12px;
+    height: 10px;
+    margin: 15px 35px;
+}
+
+.sub{
+    padding: 0 30px;
+    padding-bottom: 10px;
+    color: hsl(237, 12%, 33%); 
+    opacity: 0.7;
+    
+}
+
+.first-text-sub,
+.second-text-sub,
+.third-text-sub,
+.forth-text-sub,
+.fifth-text-sub{
+    display: none;
+}
+
+.line{
+    height: 0.1px;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    border-width: 0;
+    padding-left: 2;
+    background-color: gray;
+    color: green;
+    opacity: 0.5;
+}
+
+
+.attribution{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    white-space: nowrap;
+}
