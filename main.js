@@ -131,3 +131,4 @@ function rotateup(icon){
 function rotatedown(icon){
     document.querySelector(icon).style.transform = 'rotate(360deg)';
 }
+
